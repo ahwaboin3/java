@@ -33,6 +33,17 @@ public class CookieMain {
 		for(int i=0;i<cArr.length;i++) {
 			cArr[i].whoAreYou();
 		}
+		
+		//참조변수의 형변환
+		//서로 상속관계에 있는 타입간의 형변환은
+		//양방향으로 자유롭게 수행 될 수 있다                                            
+		cArr[0].whoAreYou();
+//		cArr[0].getCream();
+		//Cookie[] cookieArr
+		//cookieArr[0]=new CreamChocoCookie();
+		CreamChocoCookie ccc=
+				(CreamChocoCookie)cArr[0];
+		ccc.getCream();
 	}
 
 }

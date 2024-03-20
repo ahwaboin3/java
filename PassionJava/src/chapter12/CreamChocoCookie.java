@@ -7,6 +7,10 @@ public class CreamChocoCookie extends ChocoCookie{
 		System.out.println("Iam CreamChocoCookie!");
 	}
 	
+	public void getCream() {
+		System.out.println("생크림입니다");
+	}
+	
 }
 
 
