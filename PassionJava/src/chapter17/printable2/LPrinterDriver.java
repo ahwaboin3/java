@@ -1,4 +1,4 @@
-package chapter17.printable;
+package chapter17.printable2;
 
 public class LPrinterDriver implements Printable {
 

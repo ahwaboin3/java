@@ -1,4 +1,4 @@
-package chapter17.printable;
+package chapter17.printable3;
 
 public class SPrinterDriver implements Printable {
 
