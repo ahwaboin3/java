@@ -17,5 +17,7 @@ public class Company {
 	public ContInfo getcInfo() {
 		return cInfo;
 	}
+
+	
 	
 }
