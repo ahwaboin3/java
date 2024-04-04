@@ -27,7 +27,7 @@ public class PersonController {
 	
 	//전화번호부 전체 출력
 	public void printPersons(PrintPerson pp) {
-		pp.printPersons();
+		pp.printPersons(persons);
 	}
 
 }
